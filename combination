@@ -1,0 +1,6 @@
+n=str(input("enter"))
+for char in n:
+    for j in n:
+        for k in n:
+            if char!=j and j!=k and char!=k:
+                    print(char,j,k)
